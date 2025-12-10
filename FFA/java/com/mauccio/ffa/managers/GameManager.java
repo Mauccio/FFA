@@ -374,15 +374,6 @@ public class GameManager {
         }
 
         for (Player receiver : player.getWorld().getPlayers()) {
-            /*
-            if (!core.getPlayerManager().canSeeOthersDeathMessages(receiver)) {
-                if (!receiver.getName().equals(player.getName())
-                        && (killer == null || !receiver.getName().equals(killer.getName()))) {
-                    continue;
-                }
-            }
-
-             */
             String personalizedMessage = murderText;
 
             if (personalizedMessage.contains(receiver.getName())) {
@@ -452,4 +443,5 @@ public class GameManager {
     }
 
 }
+
 
