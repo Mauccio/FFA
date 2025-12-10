@@ -1,0 +1,10 @@
+name: FFA
+author: Mauccio
+main: com.mauccio.ffa.Core
+version: 1.0
+depend: [WorldEdit]
+commands:
+  freeforall:
+    description: The Main Command
+    usage: /<command>
+    aliases: [ffa]

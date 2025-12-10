@@ -1,0 +1,33 @@
+# FFA Configuration File | Version 1.0
+
+# Lobby Settings
+lobby:
+  world: Lobby
+  x: 0.0
+  y: 4.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+
+settings:
+  sound:
+    countdown: NOTE_PLING
+    start: LEVEL_UP
+  game:
+    time: 120 # Seconds
+    block-time: 10 # In Seconds, it only will work if block-placement it's true.
+    join-in-game: true # Enable players join to a started game?
+    use-blood: false # Enable blood effect?
+  lobby:
+    guard: true # Simple lobby protector : Block place, block break, player invencibility.
+    items: false # Give lobby items to player?
+  items:
+    join-game:
+      item: IRON_SWORD
+      data: 0
+      name: "&7&ka&f&l Join &7&ka"
+      lore:
+        - "&eJoin to the game."
+        - "&7Click me!"
+      glide: false
+      amount: 1
